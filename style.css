@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+body{
+    background-color: #000000; 
+    height: 300px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;
+   
+    /* margin-left: 300px; */
+
+}
+
+.header{
+    z-index: 1;
+}
+.btn{
+padding: 15px;
+width: 100px;
+color: white;
+background-color: #E50914;
+border:none;
+border-radius: 10px;
+margin-top: 20px;
+}
+.btn:hover,.btn2:hover{
+  background-color: #C11119;
+}
+#img{
+margin-top: -20px;
+}
+.mainone{
+    background-image: url(./main.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+   height: 980px;
+   width:100%;
+ position: relative;
+ top: -100px;
+border-bottom: 3px solid #E50914;
+}
+.overlay{
+    background-color: #171819;
+    height: 980px;
+    width:100%;
+    opacity: 0.75;
+}
+.heading{
+   width: 664px;
+   height: 160px;
+    font-size: 50px;
+    .lilita-one-regular {
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      color: white;
+      position: relative;
+      top: -800px;
+      left: 650px;
+}
+
+p{
+    font-size: 20px;
+}
+.headingg{
+    width: 664px;
+    height: 160px;
+     font-size: 45px;
+     .lilita-one-regular {
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+     
+       
+       
+       color: white;
+       position: relative;
+       top: -800px;
+       left: 800px;
+}
+.headings{
+    width: 664px;
+    height: 160px;
+     font-size: 45px;
+     .lilita-one-regular {
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }   
+       
+       color: white;
+       position: relative;
+       top: -920px;
+       left: 700px;
+}
+#p3{
+    font-size: 18px;
+    color: white;
+}
+#p2{
+    font-size: 16px;
+    color: lightgray;
+}
+
+.inpt{
+    
+    width: 700px;
+    height: 160px;
+     /* font-size: 45px; */
+     
+         font-family: "Poetsen One", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+       
+       
+       color: white;
+       position: relative;
+       top: -1050px;
+       left: 670px;
+}
+input{
+padding: 24px 16px 8px 16px;
+    width: 400px; 
+    background-color: transparent;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.btn2{
+    padding: 20px; 
+width: 180px;
+color: white;
+background-color: #E50914;
+border:none;
+ border-radius: 5px; 
+position: relative;
+top:-0px ;
+text-transform: uppercase;
+font-size: 20px;
+}
+  h3{
+    color: white;
+    .lilita-one-regular {
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+         font-size: 35px;
+         /* position: relative;
+         top: -800px;
+         left: 200px;*/}
+
+
+.picture{
+    display: flex;
+    justify-content: space-between;
+
+} 
+.secondcontainer {
+    width: 60%;
+    margin-left: 10px;
+    position: relative;
+    top: -700px;
+    margin:0 auto ;
+}
+.card1{
+width: 800px;
+height: 300px;
+border-radius: 10px;
+background-color: #1D1A33;
+padding: 20px;
+}
+.cards{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+}
+.containerthree{
+    width: 100%;
+
+}
+#one{
+    float: right;
+}
+#top{
+  width: 100%;
+  height: 90px;
+  background-color:#414141;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  font-size: 40px;
+  color: white;
+  padding: 5px ;
+text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+}
+  h6{
+    margin-top: 4px;
+  }
+  span{
+    float: right;
+    font-size: 50px;
+    color: white;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .pra{
+    margin-top: 1100px;
+  position: relative;
+  left: -450px;
+  }
+  footer{
+    height: 400px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    top: -1100px;
+    color: grey;
+  }
+  a{
+    color: grey;
+    font-size: 20px;
+  }
+  #bottom{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+  }
+  .linksection{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+  }
+  select{
+    padding: 10px; 
+width: 180px;
+color: white;
+background-color: transparent;
+border:2px solid white;
+ border-radius: 5px; 
+position: relative;
+top:-0px ;
+left: 30px;
+text-transform: uppercase;
+font-size: 20px;
+  }
+  
